@@ -65,7 +65,6 @@ const LocalScreen = () => {
 
   return (
     <View style={styles.container}>
-      {/* Botão de voltar */}
       <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
         <Icon name="arrow-back" size={30} color="#04c4e1" />
       </TouchableOpacity>
@@ -97,10 +96,12 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#f5a54c',
   },
   map: {
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height * 0.7,
+    marginTop: 30,
   },
   text: {
     margin: 10,
@@ -109,9 +110,9 @@ const styles = StyleSheet.create({
   },
   backButton: {
     position: 'absolute',
-    top: 40, // Posicionamento vertical do botão
-    left: 20, // Posicionamento horizontal do botão
-    zIndex: 10, // Garante que o botão fique sobreposto ao mapa
+    top: 40, 
+    left: 20, 
+    zIndex: 10, 
     backgroundColor: '#011b28',
     padding: 10,
     borderRadius: 50,

@@ -43,7 +43,7 @@ export default function HomeScreen({ navigation }) {
        <Icon name="location-on" size={50} color="#035c6f" />
        </TouchableOpacity>
        <TouchableOpacity style={styles.buttonCamera} onPress={() => navigation.navigate('Camera')}> 
-       <Text style={styles.texto2}> QRcode </Text>
+       <Text style={styles.texto2}>QRcode</Text>
        <Icon name="qr-code" size={50} color="#91612b" />
        </TouchableOpacity>
     </View>

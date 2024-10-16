@@ -1,5 +1,5 @@
 {
-  "name": "GeoCode",
+  "name": "GeoCam",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "@rneui/base": "^0.0.0-edge.2",
     "@rneui/themed": "^0.0.0-edge.2",
     "axios": "^1.7.7",
-    "expo": "~51.0.28",
+    "expo": "^51.0.38",
     "expo-app-loading": "^2.1.1",
     "expo-av": "~14.0.7",
     "expo-barcode-scanner": "~13.0.1",
